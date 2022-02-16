@@ -1,0 +1,81 @@
+body {
+  font-family: 'PT Sans', sans-serif;   
+  padding: 10px;
+  background: #ccc0a0;
+  color:#f7f0f0;
+  background-position: center center;
+  background-image: url(../images/pintree.jpg);
+  background-size: 100% 80%;
+  background-repeat: no-repeat;
+
+  margin:0;
+  
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 35%;
+  display:inline-block;
+  border:5px ridge #023d05da; 
+}
+
+.contactcard {
+  float: right;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius:5px;
+  border:5px ridge #023d05da; 
+}
+
+.contactcard h2{
+  color: #363535;
+  text-shadow: 2px 2px 4px #023d05da;
+}
+
+.contactlogo{
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .container, .contactcard {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container, .contactcard {
+    width: 100%;
+  }
+}

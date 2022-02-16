@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* img{
+    filter: blur(2px);
+  } */
+
+  body {
+    font-family: 'PT Sans', sans-serif;   
+    padding: 10px;
+    background: #ccc0a0;
+    color:#3b3b3b;
+    /* background-position: center top;
+    background-image: url(../images/centuryoldtree.jpg); */
+    margin:0;
+    
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 200px;
+    text-align: center;
+    background-color: #43b047e8;
+    background-image: url(../images/scottintree.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius:5px;
+    margin-bottom: 10px;
+  }
+  
+  .header h1 {
+    font-size: 100px;
+    color: #ffffff;
+    text-shadow: 5px 5px 4px #0e0101;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  .header h2 {
+    font-size: 50px;
+    color: #ffffff;
+    text-shadow: 5px 5px 4px #0c0c0c;
+    font-family: 'PT Sans', sans-serif;    
+    font-style: italic;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: auto;
+    background-color: #023d05da;
+    position: sticky; /* Make it stick, even on scroll */
+    top:7px; /* distance from top of screen */
+    border-radius:5px;
+    margin: 0px 0px 10px 0px;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;    
+    border-right: 1px solid #a6a6a61e; /*Tab dividers*/
+    transition-duration: 0.9s;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #0c0c0c;
+  }
+
+  .topnav h3{
+    text-align: center;
+    font-style: italic;
+    color:#ffffff;
+    text-shadow: 2px 2px 4px #0c0c0c;
+  }
+
+   /* Nav bar logo */
+   .navlogo{
+    height: 45px;
+    width: 45px;
+    float:left; 
+    padding: 0px 1px 0px 1px;
+    margin: 8px;
+  }
+
+  /* Remove border from last list item */
+  a:last-child {
+    border-right: none;
+  }
+
+   /* Active tab  */
+   .active {
+    background-color: #43b047;
+    color: #ffffff;
+  }
+  
+  
+  /* Change color on hover */
+  .topnav a:hover:not(.active) {
+    background-color: #505050;
+    color: #b8b8b8;
+  }
+
+
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .section {   
+    float: left;
+    width: 70%;
+    padding-left: 20px;
+  }
+  
+  /* Right column */
+  .aside {
+    float: left;
+    width: 20%;
+    padding-left: 20px;
+  }
+  
+
+  /* Image */
+  .img {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    border-radius:5px;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+
+  
+  /* Add a card effect for sections */
+  .card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius:5px;
+    border:5px ridge #023d05da; 
+  }
+
+  .card h2{
+    color: #363535;
+    text-shadow: 2px 2px 4px #023d05da;
+  }
+  
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #023d05da;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    border-radius:5px;
+    background-image: linear-gradient(to right, #023d05da, #000000da);
+  }
+  
+
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .section, .aside, .sidenav, .column, .header {   
+      width: 100%;
+      padding: 0;
+      
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+
+  .zimg{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  opacity: 0.5;
+  }
+
+  .floatRight{
+    float: right;
+  }
+
+ 
+
+  
+
+
+
+  
+  
+  

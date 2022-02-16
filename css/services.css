@@ -1,0 +1,85 @@
+.format{
+    margin: 5px;
+}
+
+.row h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 500px;
+    box-shadow: 5px 5px 15px #000000, -5px -5px 15px #000000;
+    background-position: center;
+    background-size: 100% 100%;
+    margin: 10px 20px 100px 20px;
+    border-radius: 10%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.services{
+    color:#ffffff;
+    font-size: 50px;
+    text-shadow: 5px 5px 4px #0e0101;
+    background-color: #2020205d;
+    border-radius: 5px;
+    animation: mymove 1.8s infinite;
+    box-shadow: 10px 10px 15px #ffffff, -10px -10px 15px #ffffff;
+}
+
+.firstservice {
+    background-image: url(../images/dumptrailer.jpg);
+    margin-left: none;
+    
+    /* border: 5px outset #000000; */ 
+}  
+.firstservice h2{
+    color: #ffffff;
+    text-shadow: 5px 5px 4px #0e0101;
+    background-color: #2020205d;
+}
+
+.secondservice{
+    background-image: url(../images/treetrim2.jpg);
+}
+.secondservice h2{
+    color: #ffffff;
+    text-shadow: 5px 5px 4px #0e0101;
+    background-color: #2020205d;
+}
+
+.thirdservice{
+    background-image: url(../images/stompgrinder.jpg);
+}
+.thirdservice h2{
+    color: #ffffff;
+    text-shadow: 5px 5px 4px #0e0101;
+    background-color: #2020205d;
+}
+
+
+
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px #023d05da, -10px -20px 30px  #023d05da;}
+}
+
+ /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 800px) {
+    .firstservice, .secondservice, .thirdservice{   
+      width: 90%;
+      padding: 20px;
+      
+    }
+  }
+  
+  

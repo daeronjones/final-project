@@ -1,0 +1,44 @@
+.sidenav {
+    height: 100%;
+    background-color: #fbd000da;
+    float: left;
+    width: 10%;
+    position:sticky;
+    top:150px;
+    
+  }
+  
+  .sidenav a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    /* transition: all 0.3s ease; */
+    color: white;
+    font-size: 26px;
+    border-bottom: 1px solid #a6a6a61e; /*Tab dividers*/
+    transition-duration: 0.7s;
+  }
+
+  .sidenav h4 {
+    color: #363535;
+    text-shadow: 2px 2px 4px #43b047;
+    text-align: center;
+  }
+  
+  .sidenav a:hover {
+    background-color: #43b047;
+  }
+  
+  .active2 {
+    background-color: #43b047;
+  }
+
+
+  /* <!-- <div class="sidenav">
+      <h4>Services</h4>
+      <a class="active2" href="#"><i class="fa fa-home"></i></a> 
+      <a href="#"><i class="fa fa-search"></i></a> 
+      <a href="#"><i class="fa fa-envelope"></i></a> 
+      <a href="#"><i class="fa fa-globe"></i></a>
+      <a href="#"><i class="fa fa-trash"></i></a> 
+    </div> --> */
