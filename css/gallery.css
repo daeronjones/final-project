@@ -1,12 +1,18 @@
-div.gallery {
-    border: 1px solid #ccc;
+div.polaroid {
+    border: 1px solid #3d1a02;
+    padding: 10px 10px 20px 10px;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin-bottom: 20px;
+    /* transform: rotate(7deg); */
+
   }
   
-  div.gallery:hover {
+  div.polaroid:hover {
     border: 1px solid #777;
   }
   
-  div.gallery img {
+  div.polaroid img {
     width: 100%;
     height: auto;
   }

@@ -16,7 +16,7 @@
     background-position: center;
     background-size: 100% 100%;
     margin: 10px 20px 100px 20px;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 
@@ -35,18 +35,22 @@
     border-radius: 5px;
     animation: mymove 1.8s infinite;
     box-shadow: 10px 10px 15px #ffffff, -10px -10px 15px #ffffff;
+    padding: 10px 10px 20px 10px;
+
 }
 
 .firstservice {
     background-image: url(../images/dumptrailer.jpg);
-    margin-left: none;
+    
     
     /* border: 5px outset #000000; */ 
 }  
 .firstservice h2{
     color: #ffffff;
     text-shadow: 5px 5px 4px #0e0101;
-    background-color: #2020205d;
+    background-color: #193f1ae8;
+    text-align: center;
+
 }
 
 .secondservice{
@@ -55,7 +59,8 @@
 .secondservice h2{
     color: #ffffff;
     text-shadow: 5px 5px 4px #0e0101;
-    background-color: #2020205d;
+    background-color: #193f1ae8;
+    text-align: center;
 }
 
 .thirdservice{
@@ -64,7 +69,8 @@
 .thirdservice h2{
     color: #ffffff;
     text-shadow: 5px 5px 4px #0e0101;
-    background-color: #2020205d;
+    background-color: #193f1ae8;
+    text-align: center;
 }
 
 
